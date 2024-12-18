@@ -1,0 +1,28 @@
+{
+    "architectures": [
+      "ViTForImageClassification"
+    ],
+    "hidden_size": 768,
+    "intermediate_size": 3072,
+    "num_attention_heads": 12,
+    "num_hidden_layers": 12,
+    "image_size": 224,
+    "patch_size": 16,
+    "hidden_act": "gelu",
+    "initializer_range": 0.02,
+    "layer_norm_eps": 1e-12,
+    "vocab_size": 0,
+    "id2label": {
+      "0": "Brand A",
+      "1": "Brand B",
+      "2": "Brand C",
+      "3": "Brand D"
+    },
+    "label2id": {
+      "Brand A": 0,
+      "Brand B": 1,
+      "Brand C": 2,
+      "Brand D": 3
+    }
+  }
+  
